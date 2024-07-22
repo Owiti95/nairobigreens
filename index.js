@@ -14,7 +14,7 @@ document.getElementById("productForm").addEventListener("submit", function(event
     };
 
     // Send POST request using fetch/ will post the user's values
-    fetch('http://localhost:3000/vegetables', {
+    fetch('https://farmers-sigma.vercel.app/vegetables', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -40,7 +40,7 @@ document.getElementById("productForm").addEventListener("submit", function(event
     document.getElementById("productForm").reset();
 });
 
-fetch('db.json')
+fetch('https://farmers-sigma.vercel.app/vegetables')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -68,7 +68,7 @@ fetch('db.json')
         });
 
         function deleteProduct(index) {
-            fetch('db.json')
+            fetch('https://farmers-sigma.vercel.app/vegetables')
                 .then(function(response) {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
@@ -80,8 +80,8 @@ fetch('db.json')
                     data.vegetables.splice(index, 1);
     
                     // Update db.json with the modified data
-                    return fetch('db.json', {
-                        method: 'PUT', // or 'POST'
+                    return fetch('https://farmers-sigma.vercel.app/vegetables', {
+                        method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
                         },
