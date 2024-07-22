@@ -40,7 +40,7 @@ document.getElementById("productForm").addEventListener("submit", function(event
     document.getElementById("productForm").reset();
 });
 
-fetch('https://farmers-sigma.vercel.app/vegetables')
+fetch('db.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -68,7 +68,7 @@ fetch('https://farmers-sigma.vercel.app/vegetables')
         });
 
         function deleteProduct(index) {
-            fetch('https://farmers-sigma.vercel.app/vegetables')
+            fetch('db.json')
                 .then(function(response) {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
@@ -80,8 +80,8 @@ fetch('https://farmers-sigma.vercel.app/vegetables')
                     data.vegetables.splice(index, 1);
     
                     // Update db.json with the modified data
-                    return fetch('https://farmers-sigma.vercel.app/vegetables', {
-                        method: 'POST',
+                    return fetch('db.json', {
+                        method: 'PUT', // or 'POST'
                         headers: {
                             'Content-Type': 'application/json',
                         },
