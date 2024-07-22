@@ -1,0 +1,65 @@
+{
+  "vegetables": [
+    {
+      "name": "Tomatoes",
+      "price": "150",
+      "imageUrl": "https://media.istockphoto.com/id/1419141035/photo/cut-red-tomato-close-up-in-a-box.webp?b=1&s=170667a&w=0&k=20&c=o1dNGNHe54B1O11Ynce-WNQs-FnPx8gsF0NERTjmJC4=",
+      "id": "5a2f"
+    },
+    {
+      "name": "Eggs",
+      "price": "600",
+      "imageUrl": "https://media.istockphoto.com/id/1599935345/photo/chicken-eggs-on-carton.webp?b=1&s=170667a&w=0&k=20&c=J9694NIyCiDOB3JgIRjowdr3hOksydKLx3Bl3dcsIX4=",
+      "id": "0bae"
+    },
+    {
+      "name": "Onions",
+      "price": "150",
+      "imageUrl": "https://media.istockphoto.com/id/1488345855/photo/many-red-onions-at-a-wholesale-vegetable-market.webp?b=1&s=170667a&w=0&k=20&c=b8dgtCGtDMPls9aVsgegqZOt-MI5c9wBPQvzy-KcJfw=",
+      "id": "1d98"
+    },
+    {
+      "name": "Kales",
+      "price": "150",
+      "imageUrl": "https://media.istockphoto.com/id/1455022085/photo/curly-kale-on-a-wooden-cutting-board-healthy-eating-concept-superfoods-organic-food.webp?b=1&s=170667a&w=0&k=20&c=Hy4xl7Z0pe0PxM9lh5XyUeFH2nkyPSFF_4pSDr6RTNA=",
+      "id": "8b98"
+    },
+    {
+      "name": "Spinach",
+      "price": "150",
+      "imageUrl": "https://media.istockphoto.com/id/172689786/photo/spinach-bunch-isolated-on-white-background.webp?b=1&s=170667a&w=0&k=20&c=W1MxW3LVqCt80xN2X4AMlapBaWxZT-f-BrNvGD7nMCE=",
+      "id": "312a"
+    },
+    {
+      "id": "2432",
+      "name": "onion",
+      "price": "80",
+      "imageUrl": "https://media.istockphoto.com/id/1459313317/photo/soaked-legumes-mix.webp?b=1&s=170667a&w=0&k=20&c=MvEhN0X62l9GbyDxtpFGCgKTfAROJTsoP5Bv0clcsqk="
+    },
+    {
+      "id": "79de",
+      "name": "onion",
+      "price": "80",
+      "imageUrl": "https://media.istockphoto.com/id/1459313317/photo/soaked-legumes-mix.webp?b=1&s=170667a&w=0&k=20&c=MvEhN0X62l9GbyDxtpFGCgKTfAROJTsoP5Bv0clcsqk="
+    },
+    {
+      "id": "3a33",
+      "name": "onion",
+      "price": "80",
+      "imageUrl": "https://media.istockphoto.com/id/1459313317/photo/soaked-legumes-mix.webp?b=1&s=170667a&w=0&k=20&c=MvEhN0X62l9GbyDxtpFGCgKTfAROJTsoP5Bv0clcsqk="
+    },
+    {
+      "id": "2cfa",
+      "name": "onion",
+      "price": "80",
+      "imageUrl": "https://media.istockphoto.com/id/1459313317/photo/soaked-legumes-mix.webp?b=1&s=170667a&w=0&k=20&c=MvEhN0X62l9GbyDxtpFGCgKTfAROJTsoP5Bv0clcsqk="
+    },
+    {
+      "id": "ca39",
+      "name": "onion",
+      "price": "80",
+      "imageUrl": "https://media.istockphoto.com/id/1459313317/photo/soaked-legumes-mix.webp?b=1&s=170667a&w=0&k=20&c=MvEhN0X62l9GbyDxtpFGCgKTfAROJTsoP5Bv0clcsqk=",
+      "phone": {}
+    }
+  ]
+}

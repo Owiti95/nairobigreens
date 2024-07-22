@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Form</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <h1>Nairobi Organics</h1>
+        <h3>type product details to sell..</h3>
+    </header>
+    <form id="productForm">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName" required>
+
+        <label for="productPrice">Price:</label>
+        <input type="text" id="productPrice" name="productPrice" required>
+
+        <label for="imageUrl">Image URL:</label>
+        <input type="text" id="imageUrl" name="imageUrl" required>
+
+        <label for="productPhone">Contact:</label>
+        <input type="text" id="productPhone" name="productPhone" required>
+
+        <input type="submit" value="Submit">
+    </form>
+<br>
+<br>
+    <div id="productList">
+        <!-- Product items will be inserted here dynamically -->
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

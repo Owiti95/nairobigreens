@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #9cb661;
+}
+
+header {
+    background-color: rgba(241, 232, 213, 0.959);
+    margin-right: 2px;
+    border-radius: 5px;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #9cb661;
+}
+
+#productList {
+    display: flex;  /* Use flexbox */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+    gap: 20px; /* Gap between product cards */
+}
+
+.product-card {
+    width: 250px; /* Set width of each product card */
+    padding: 15px;
+    border: 1px solid #0a1b03;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product-card p {
+    color: #666;
+    font-size: 16px;
+}
