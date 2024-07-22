@@ -10,13 +10,13 @@ This e-commerce site is developed with HTML,CSS and Javascript.It allows users t
 
 ## BackEnd
 
-Javascript has been used to fetch() data from the db.json file as well as POST form data
+Javascript has been used to GET data from the server as well as POST form data.
 
 
 ## Features
+- Form
+- add products
 - Enter new items.
-- Purchase items with the shopping cart.
-- Edit items you want.
 - Delete the items.
 
 
